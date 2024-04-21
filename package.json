@@ -1,0 +1,16 @@
+{
+  "name": "sheyu_blog",
+  "version": "2.0.0",
+  "description": "this is a sheyu blog on github",
+  "repository": "git@github.com:recoluan/vuepress-theme-reco-demo.git",
+  "author": "sheyu <804966816@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "vuepress dev .",
+    "build": "vuepress build ."
+  },
+  "dependencies": {
+    "vuepress": "2.0.0-rc.0",
+    "vuepress-theme-reco": "2.0.0-rc.6"
+  }
+}
