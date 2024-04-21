@@ -5,7 +5,7 @@ import recoTheme from "vuepress-theme-reco";
 export default defineUserConfig({
   title: "舍予",
   description: "个人前端博客，欢迎来玩！",
-  base: '/blog/',
+  base: '/sheyu-blog/',
   head: [['link', { rel: 'icon', href: '/logo.png' }]],
   theme: recoTheme({
     style: "@vuepress-reco/style-default",
