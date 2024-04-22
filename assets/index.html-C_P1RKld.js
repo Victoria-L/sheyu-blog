@@ -1,1 +1,0 @@
-import{_ as t,o,c as s,a as e,b as a}from"./app-BeBJElNi.js";const c={},n=e("h1",{id:"sheyu-blog",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#sheyu-blog","aria-hidden":"true"},"#"),a(" sheyu-blog")],-1),r=e("p",null,"个人博客，记录前端知识，欢迎访问",-1),_=[n,r];function d(l,h){return o(),s("div",null,_)}const u=t(c,[["render",d],["__file","index.html.vue"]]);export{u as default};
