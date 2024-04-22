@@ -5,7 +5,7 @@ import recoTheme from "vuepress-theme-reco";
 export default defineUserConfig({
   title: "舍予",
   description: "个人前端博客，欢迎来玩！",
-  base: '/sheyu-blog/',
+  base: '/',
   head: [['link', { rel: 'icon', href: '/logo.png' }]],
   theme: recoTheme({
     style: "@vuepress-reco/style-default",
@@ -17,7 +17,7 @@ export default defineUserConfig({
     docsDir: "docs",
     lastUpdatedText: "",
     // 自动设置分类
-    // autoSetSeries: true,
+    autoSetSeries: true,
     // series 为原 sidebar
     series: {
       "/docs/base/": [
@@ -28,6 +28,10 @@ export default defineUserConfig({
         {
           text: "JavaScript",
           children: ["js_base", "jsWebAPI", 'js_interview'],
+        },
+        {
+          text: "TypeScript",
+          children: ['typescript'],
         },
         {
           text: "Vue",
@@ -73,6 +77,7 @@ export default defineUserConfig({
           { text: "Vue", link: '/docs/base/vue_cli' },
           { text: "Webpack", link: '/docs/base/webpack_loader' },
           { text: "Http", link: '/docs/base/http' },
+          { text: "TypeScript", link: '/docs/base/typescript' },
         ]
       },
       {
